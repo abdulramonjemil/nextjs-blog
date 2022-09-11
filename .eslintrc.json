@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "plugin:@next/next/recommended", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "double"]
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}
